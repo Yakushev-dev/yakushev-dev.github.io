@@ -1,0 +1,78 @@
+.side-menu {
+    position: fixed;
+    top: 0;
+    left: 200px;
+    width: 400px;
+    height: 100%;
+    background-color: #333;
+    color: rgb(255, 255, 255);
+    padding: 20px;
+    transition: all 0.3s ease;
+    transform: translateX(-200px);
+}
+  
+.side-menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.side-menu li {
+    padding: 10px 0;
+    font-size: 33px;
+    border-bottom: 1px solid #555;
+}
+  
+.side-menu li:last-child {
+    border-bottom: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 90px;
+    line-height: 50px;
+    color: #454545;
+}
+
+h3 {
+    text-align: center;
+    font-size: 50px;
+    line-height: 48px;
+    color: #454545;
+    font-weight: 300;
+    margin-bottom: 70px;
+}
+
+@media screen and (max-width: 900px) {
+    h1 {
+        line-height: 80px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1 {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    h3 {
+        font-size: 30px;
+        line-height: 10px;
+    }
+
+    .side-menu {
+        width: 120px;
+    }
+
+    .side-menu li {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+  

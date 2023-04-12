@@ -1,0 +1,150 @@
+.titleContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.firstImageContainer {
+    position: relative;
+}
+
+.loveStoryText {
+    position: absolute;
+    left: -15%;
+    top: -6%;
+    width: 12%;
+}
+
+.firstImage {
+    width: 1000px;
+    padding: 30px;
+    border: 1.5px solid #dbaf96ec;
+}
+
+.border {
+    position: absolute;
+    bottom: 35px;
+    left: 30px;
+    width: 1040px;
+    height: 790px;
+    padding: 10px;
+    border: 1.5px solid #dbaf96ec;
+}
+
+.storyContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+}
+
+.storyImage {
+    width: 500px;
+    border: 1.5px solid #dbaf96ec;
+    padding: 30px;
+    margin-right: 100px;
+}
+
+.story {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 35%;
+}
+
+.story img {
+    width: 15%;
+}
+
+.story h3 {
+    width: 100%;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+
+.story p {
+    font-size: 30px;
+    line-height: 35px;
+}
+
+@media screen and (max-width: 1200px) {
+    .titleContainer {
+        justify-content: center;
+        margin-top: 120px;
+    }
+
+    .story img {
+        width: 25%;
+    }
+
+    .story h3 {
+        width: 100%;
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    
+    .story p {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .storyImage {
+        width: 420px;
+        height: 600px;
+        padding: 20px;
+        margin-right: 40px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .loveStoryText {
+        transform: rotate(90deg);
+        top: -150px;
+        left: 117px;
+    }
+
+    .firstImage {
+        width: 280px;
+        padding: 5px;
+        border: 1px solid #dbaf96ec;
+    }
+    
+    .border {
+        bottom: 10px;
+        left: 5px;
+        width: 271px;
+        height: 201px;
+        border: 1px solid #dbaf96ec;
+    }
+
+    .storyContainer {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 20px; 
+    }
+
+    .story {
+        width: 280px;
+    }
+
+    .story img {
+        width: 25%;
+    }
+
+    .story h3 {
+        font-size: 21px;
+        line-height: 30px;
+    }
+    
+    .story p {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .storyImage {
+        width: 280px;
+        height: auto;
+        padding: 10px;
+        margin-right: 0;
+    }
+}

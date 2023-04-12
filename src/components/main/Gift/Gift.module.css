@@ -1,0 +1,121 @@
+.giftContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+}
+
+.titleContainer {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 700px;
+    margin-right: 50px;
+}
+
+.titleContainer h3 {
+    text-align: left;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.title {
+    position: absolute;
+    left: 250px;
+    top: -70px;
+    font-size: 130px;
+    color: #dbaf96;
+    opacity: 0.2;
+}
+
+.description {
+    margin-top: 70px;
+    font-size: 30px;
+    line-height: 35px;
+}
+
+.petContainer {
+    font-size: 30px;
+}
+
+.dogs {
+    width: 500px;
+    padding: 20px;
+    border: 1px solid #dbaf96;
+}
+
+@media screen and (max-width: 1200px) {
+    .giftContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .title {
+        font-size: 90px;
+    }
+
+    .titleContainer {
+        margin: 0;
+    }
+
+    .description {
+        font-size: 25px;
+    }
+
+    .titleContainer h3 {
+        font-size: 35px;
+        line-height: 35px;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+
+    .petContainer {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .dogs {
+        padding: 10px;
+        margin-top: 30px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .giftContainer {
+        margin-top: 30px;
+    }
+    .title {
+        font-size: 40px;
+        top: 0;
+        left: 0;
+        right: -100px;
+    }
+
+    .titleContainer {
+        width: 300px;
+    }
+
+    .description {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .titleContainer h3 {
+        font-size: 21px;
+        line-height: 25px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .petContainer {
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .dogs {
+        width: 280px;
+        padding: 5px;
+        margin-top: 10px;
+    }
+}

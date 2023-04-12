@@ -1,0 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&family=Cormorant:wght@300&display=swap'); */
+
+div, h1, h2, h3, p, span {
+    font-family: 'Cormorant', serif !important;
+    font-weight: 300;
+}

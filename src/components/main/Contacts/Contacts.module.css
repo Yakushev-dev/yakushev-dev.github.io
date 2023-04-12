@@ -1,0 +1,166 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 120px;
+    margin-bottom: 100px;
+}
+
+.textContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.title {
+    font-size: 40px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #dbaf96;
+}
+
+.description {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.contactContainer {
+    display: flex;
+}
+
+.contacts {
+    width: 300px;
+    margin-left: 30px;
+}
+
+.contacts div {
+    margin: 0;
+    border-bottom: 1px solid #dbaf96;
+}
+
+.contacts div:first-child {
+    margin-top: 10px;
+}
+
+.contacts p {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 25px;
+}
+
+.contacts img {
+    width: 30px;
+    margin-bottom: -5px;
+}
+
+.sayMe {
+    width: 340px;
+    font-size: 30px;
+    margin-top: 10px;
+    padding-left: 35px;
+    padding-right: 15px;
+    border-top: 1px solid #dbaf96;
+    border-left: 1px solid #dbaf96;
+}
+
+.sayMe p {
+    text-align: center;
+}
+
+.contactsTitle {
+    font-size: 40px;
+    margin: 20px 0;
+}
+
+.heart {
+    width: 100px;
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        margin-top: 80px;
+        margin-bottom: 60px;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+    
+    .description {
+        width: 650px;
+        font-size: 25px;
+    }
+
+    .contactsTitle {
+        font-size: 30px;    
+    }
+
+    .sayMe {
+        font-size: 25px;
+    }
+
+    .contacts p {
+        font-size: 25px;
+    }
+
+    .contacts img {
+        width: 25px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .container {
+        margin-top: 30px;
+    }
+
+    .title {
+        width: 300px;
+        font-size: 21px;
+        line-height: 25px;
+    }
+    
+    .description {
+        width: 300px;
+        font-size: 16px;
+    }
+
+    .heart {
+        width: 50px;
+    }
+
+    .contactsTitle {
+        font-size: 21px;    
+    }
+
+    .sayMe {
+        width: 180px;
+        font-size: 16px;
+        padding-left: 15px;
+    }
+
+    .contactContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts {
+        width: 120px;
+        margin-left: 0px;
+    }
+    
+    .contacts p {
+        font-size: 16px;
+        padding-left: 0px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .contacts img {
+        width: 16px;
+    }
+}

@@ -1,0 +1,89 @@
+.aboutContainer {
+    position: relative;
+}
+
+.textContainer {
+    margin: 0 auto;
+    width: 480px;
+}
+
+.title1 {
+    position: absolute;
+    top: -120px;
+    right: 10%;
+    font-size: 130px;
+    color: #dbaf96;
+    opacity: 0.2;
+}
+
+.title2 {
+    text-align: left;
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+.p1, .p2, .podpis {
+    text-align: left;
+    font-size: 30px;
+    line-height: 35px;
+    color: #454545;
+}
+
+.date {
+    text-align: center;
+    font-size: 40px;
+    color: #dbaf96;
+    padding: 15px 0;
+    margin-bottom: 0;
+    border-top: 1px solid #dbaf96;
+    border-bottom: 1px solid #dbaf96;
+}
+
+.herts {
+    width: 50px;
+    height: 20px;
+    margin: -20px 0;
+}
+
+@media screen and (max-width: 1200px) {
+    .title1 {
+        font-size: 90px;
+        top: -100px
+    }
+
+    .title2 {
+        font-size: 50px;
+    }
+
+    .p1, .p2, .podpis {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .textContainer {
+        width: 280px;
+    }
+
+    .title1 {
+        font-size: 40px;
+        right: 10%;
+        top: -50px;
+    }
+
+    .title2 {
+        font-size: 30px;
+        margin-bottom: 0;
+    }
+
+    .p1, .p2, .podpis {
+        font-size: 16px;
+        line-height: 23px;
+    }
+
+    .date {
+        font-size: 25px;
+        margin-top: 0;
+        margin-bottom: -5px;
+    }
+}
