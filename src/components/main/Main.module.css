@@ -1,3 +1,4 @@
 .mainImage img {
-    width: 33.33333%;
+    width: 100%;
+    opacity: 0.7;
 }

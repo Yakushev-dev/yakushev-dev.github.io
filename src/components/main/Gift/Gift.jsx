@@ -3,7 +3,7 @@ import css from './Gift.module.css';
 
 export const Gift = () => {
   return (
-    <div className={css.giftContainer}>
+    <div id="gift" className={css.giftContainer}>
         <div className={css.titleContainer}>
             <h1 className={css.title}>ПОДАРОК</h1>
             <div className={css.description}>

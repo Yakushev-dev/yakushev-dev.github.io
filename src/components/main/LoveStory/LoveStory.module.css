@@ -100,7 +100,7 @@
     .loveStoryText {
         transform: rotate(90deg);
         top: -150px;
-        left: 117px;
+        left: 180px;
     }
 
     .firstImage {
@@ -113,7 +113,7 @@
         bottom: 10px;
         left: 5px;
         width: 271px;
-        height: 201px;
+        height: 136px;
         border: 1px solid #dbaf96ec;
     }
 

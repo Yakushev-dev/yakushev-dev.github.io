@@ -127,6 +127,7 @@
     .description {
         width: 300px;
         font-size: 16px;
+        margin-bottom: 20px;
     }
 
     .heart {
@@ -138,7 +139,7 @@
     }
 
     .sayMe {
-        width: 180px;
+        width: 250px;
         font-size: 16px;
         padding-left: 15px;
     }
@@ -149,7 +150,7 @@
     }
 
     .contacts {
-        width: 120px;
+        width: 180px;
         margin-left: 0px;
     }
     

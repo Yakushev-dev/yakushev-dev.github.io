@@ -11,9 +11,7 @@ export default function Main() {
   return (
     <div>
         <div className={css.mainImage}>
-            <img src="assets/1.jpeg" alt="заставка" />
-            <img src="assets/2.jpeg" alt="заставка" />
-            <img src="assets/3.jpeg" alt="заставка" />
+            <img src="assets/title.jpeg" alt="заставка" />
         </div>
         <About />
         <LoveStory />

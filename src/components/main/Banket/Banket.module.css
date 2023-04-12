@@ -70,12 +70,13 @@
 
 @media screen and (max-width: 800px) {
     .container {
-        margin-top: 70px;
+        margin-top: 60px;
     }
 
     .logo {
-        width: 200px;
+        width: 185px;
         margin-bottom: 15px;
+        margin-right: -130px;
     }
 
     .img {

@@ -5,7 +5,7 @@ export const DressCode = () => {
     const isSmallScreen = window.innerWidth < 800;
 
   return (
-    <div className={css.wrapper}>  
+    <div id="dressCode" className={css.wrapper}>  
         <div className={css.container}>
             {isSmallScreen ? (
                 <>

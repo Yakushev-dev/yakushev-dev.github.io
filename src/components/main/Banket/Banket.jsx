@@ -11,7 +11,7 @@ export const Banket = () => {
     };
 
     return (
-        <div className={css.container}>
+        <div id="banket" className={css.container}>
             {isSmallScreen ? (
             <>
                 <img className={css.logo} src="assets/banket.svg" alt="banket" />

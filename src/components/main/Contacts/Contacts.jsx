@@ -3,7 +3,7 @@ import css from './Contacts.module.css';
 
 export const Contacts = () => {
   return (
-    <div className={css.container}>
+    <div id="contacts" className={css.container}>
         <div className={css.textContainer}>
             <h3 className={css.title}>
                 МЫ БУДЕМ РАДЫ ВИДЕТЬ ВАС НА НАШЕЙ СВАДЬБЕ!
