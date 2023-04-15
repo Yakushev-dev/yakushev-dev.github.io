@@ -6,12 +6,13 @@
 
 .firstImageContainer {
     position: relative;
+    left: 100px;
 }
 
 .loveStoryText {
     position: absolute;
     left: -15%;
-    top: -6%;
+    top: -2%;
     width: 12%;
 }
 
@@ -26,7 +27,7 @@
     bottom: 35px;
     left: 30px;
     width: 1040px;
-    height: 790px;
+    height: 845px;
     padding: 10px;
     border: 1.5px solid #dbaf96ec;
 }
@@ -40,7 +41,7 @@
 .storyImage {
     width: 500px;
     border: 1.5px solid #dbaf96ec;
-    padding: 30px;
+    padding: 20px;
     margin-right: 100px;
 }
 
@@ -103,6 +104,10 @@
         left: 180px;
     }
 
+    .firstImageContainer {
+        left: 0;
+    }
+
     .firstImage {
         width: 280px;
         padding: 5px;
@@ -113,7 +118,7 @@
         bottom: 10px;
         left: 5px;
         width: 271px;
-        height: 136px;
+        height: 216px;
         border: 1px solid #dbaf96ec;
     }
 
@@ -144,7 +149,7 @@
     .storyImage {
         width: 280px;
         height: auto;
-        padding: 10px;
+        padding: 5px;
         margin-right: 0;
     }
 }

@@ -9,7 +9,7 @@ export const LoveStory = () => {
                 <div className={css.titleContainer}>
                     <div className={css.firstImageContainer}>
                         <img id='loveStory' className={css.loveStoryText} src="assets/loveStoryText.svg" alt="loveStoryText" />
-                        <img className={css.firstImage} src="assets/title.jpeg" alt="LoveStoryImg" />
+                        <img className={css.firstImage} src="assets/loveStory.jpeg" alt="LoveStoryImg" />
                         <div className={css.border}></div>
                     </div>
                 </div>
