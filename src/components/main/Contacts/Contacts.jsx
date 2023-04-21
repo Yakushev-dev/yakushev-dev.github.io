@@ -39,6 +39,20 @@ export const Contacts = () => {
                     </p>
                 </div>
                 <div>
+                    <p> Никита (ведущий) &nbsp; 
+                        <a href="https://t.me/ne_nikitaa" target="_blank" rel="noreferrer">
+                            <img src="assets/tg.png" alt="inst" />
+                        </a>
+                    </p>
+                </div>
+                <div>
+                    <p> Настя (координатор) &nbsp; 
+                        <a href="https://t.me/Zezulchik" target="_blank" rel="noreferrer">
+                            <img src="assets/tg.png" alt="inst" />
+                        </a>
+                    </p>
+                </div>
+                <div>
                     <p> Приют &nbsp; 
                         <a href="https://mv38.ru/need" target="_blank" rel="noreferrer">
                             <img src="assets/dog.png" alt="inst" />
